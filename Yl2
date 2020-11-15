@@ -1,0 +1,21 @@
+#!/bin/bash
+#Koosta skript nimega menu ja lisaks peab kasutaja="Kristjan".
+#Väljasta kasutajale järgmine menüü:
+#1) liha ja kartulid
+#2) kala ja krõpsud
+#3) supp ja salat
+#Paku kasutajale sisestada valiku numbrit:
+#Tee oma valik (1 või 2 või 3)
+
+echo "Kristjan palun vali menüüst toit"
+echo " 1)liha ja kartulid"
+echo " 2)kala ja krõpsud"
+echo " 3)supp ja salat"
+
+read n
+case $n in
+1)echo "Väga maitsev, aga jälgi oma tervist!Head isu!";;
+2)echo "Brititoit on maisev!Head isu!";;
+3)echo "Nii tervislik ja igav...Head isu!";;
+4)echo "seda menüüd ei ole";;
+esac

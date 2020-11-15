@@ -1,0 +1,17 @@
+#!/bin/bash
+#Koosta skript nimega kujund.
+#Kristjan luba sisestada kujundi ridade arv nii,et ülevalt alustaks suuremast.
+
+echo "Mitme realist kolmnurka soovid?"
+read number
+
+rows=number
+for((i=rows; i>=1; i--))
+do
+  for((j=1; j<=i; j++))
+  do
+    echo -n "* "
+  done
+  echo
+done
+

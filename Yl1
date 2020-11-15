@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Koosta skript nimega info. Skript pean tervitama kasutajad nime järgi "Kristjan" ja väljastab kuupäeva ja kalle aja kujul "Täna on 11.11.2020 kell 8:45"
+#Yl1
+kasutajanimi="Kristjan"
+d=`date '+%d.%m.%Y'`
+now=$(date +"%T")
+echo "Tere $kasutajanimi"
+echo "Täna on $d ja kell $now"
+
+
